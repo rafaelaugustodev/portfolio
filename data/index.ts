@@ -1,10 +1,12 @@
+// Itens de navegação do menu principal
 export const navItems = [
-  { name: "Sobre", link: "#about" },
-  { name: "Projetos", link: "#projects" },
-  { name: "Depoimentos", link: "#testimonials" },
-  { name: "Contato", link: "#contact" },
+  { name: "Sobre", link: "#sobre" },
+  { name: "Projetos", link: "#projetos" },
+  { name: "Experiência", link: "#experiencia" },
+  { name: "Contato", link: "#contato" },
 ];
 
+// Configuração do Bento Grid com foco em IA e colaboração
 export const gridItems = [
   {
     id: 1,
@@ -48,8 +50,8 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Desenvolvendo sistema de categorização contextual com IA",
-    description: "Bastidores do Projeto",
+    title: "Sistema de categorização de documentos com IA",
+    description: "Meu principal projeto",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -68,41 +70,51 @@ export const gridItems = [
   },
 ];
 
+// Seleção de projetos reais extraídos dos seus READMEs
 export const projects = [
   {
     id: 1,
     title: "Categorização de Documentos com IA",
-    des: "Sistema inteligente para classificação automática de documentos usando processamento de linguagem natural.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/node.svg", "/ai.svg"],
-    link: "https://github.com/",
+    des: "Sistema inteligente para classificação automática de documentos usando processamento de linguagem natural e Docker.",
+    img: "/Categorizar.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/node.svg", "/dock.svg"],
+    link: "https://categorizador-frontend.onrender.com/categorizar",
   },
   {
     id: 2,
-    title: "Yoom - App de Videoconferência",
-    des: "Experiência simplificada de chamadas de vídeo com conexões em tempo real para equipes.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/",
+    title: "TopStream",
+    des: "Plataforma para busca de filmes e animes com assistente de IA para recomendações personalizadas via IA.",
+    img: "TopStream.png",
+    iconLists: ["/re.svg", "/node.svg", "/tail.svg", "/js.svg", "/ai.svg"],
+    link: "https://topstream-finder-site.onrender.com",
   },
   {
     id: 3,
-    title: "SaaS de Imagens com IA",
-    des: "Aplicação completa com pagamentos, créditos e ferramentas de edição baseadas em inteligência artificial.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/",
+    title: "Sistema de Cadastro e Login",
+    des: "Aplicação full-stack com gerenciamento de usuários, recuperação de senha e área administrativa com MongoDB e Prisma.",
+    img: "CadastroLogin.png",
+    iconLists: ["/re.svg", "/node.svg", "/tail.svg", "/js.svg", "/mongo.svg"],
+    link: "https://sistema-de-cadastro-e-login-web-commit.onrender.com",
   },
   {
     id: 4,
-    title: "Website 3D iPhone Animado",
-    des: "Recriação do site do iPhone 15 Pro, combinando animações GSAP e efeitos 3D com Three.js.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/",
+    title: "Assistente Culinário AI",
+    des: "Chat interativo que fornece receitas detalhadas e sugestões baseadas em ingredientes disponíveis via IA.",
+    img: "/DevReceita.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/ai.svg"],
+    link: "https://meu-app-receitas.onrender.com",
+  },
+  {
+    id: 5,
+    title: "Landing Page - Maquiagem & Beleza",
+    des: "Página web responsiva com animações de scroll modernas e menu interativo para serviços de estética.",
+    img: "/Maquiagem.png",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap.svg", "/jquery.svg"],
+    link: "https://ephemeral-sunburst-d62836.netlify.app/",
   },
 ];
 
+// Histórico profissional baseado nas suas atuações principais
 export const workExperience = [
   {
     id: 1,
@@ -114,26 +126,27 @@ export const workExperience = [
   {
     id: 2,
     title: "Desenvolvedor de Soluções IA",
-    desc: "Implementação de sistemas de categorização de documentos e integração de modelos inteligentes.",
+    desc: "Implementação de sistemas de categorização de documentos e integração de modelos inteligentes para classificação.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 3,
     title: "Desenvolvedor Full Stack Freelance",
-    desc: "Desenvolvimento de aplicações ponta a ponta, desde o conceito inicial até o deploy.",
+    desc: "Desenvolvimento de aplicações ponta a ponta, desde o conceito inicial até o deploy final.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Desenvolvedor Mobile - React Native",
-    desc: "Criação de aplicativos híbridos para iOS e Android com foco em performance.",
+    desc: "Criação de aplicativos híbridos para iOS e Android com foco em performance e usabilidade.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
 ];
 
+// Redes sociais para contato
 export const socialMedia = [
   { id: 1, img: "/git.svg" },
   { id: 2, img: "/twit.svg" },

@@ -46,10 +46,10 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Olá, eu sou o Rafael, um desenvolvedor focado em experiências excepcionais.
+            Olá, eu sou o Rafael, um desenvolvedor que foca na experiência do usuário.
           </p>
 
-          <a href="#about">
+          <a href="#sobre">
             <MagicButton
               title="Veja meu trabalho"
               icon={<FaLocationArrow />}
