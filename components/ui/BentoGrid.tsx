@@ -9,7 +9,6 @@ import { GlobeDemo } from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow, FaRegFilePdf } from "react-icons/fa";
-import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -70,20 +69,18 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <Image
+            <img
               src={prefixPath(img)}
               alt={img}
-              fill
               className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
         </div>
         <div className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"}`}>
           {spareImg && (
-            <Image
+            <img
               src={prefixPath(spareImg)}
               alt={spareImg}
-              fill
               className="object-cover object-center"
             />
           )}
