@@ -111,36 +111,6 @@ export const projects = [
   },
 ];
 
-export const workExperience = [
-  {
-    id: 1,
-    title: "Lead Frontend Developer",
-    desc: "Liderança no desenvolvimento de interfaces modernas e manutenção de recursos focados no usuário.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-  {
-    id: 2,
-    title: "Desenvolvedor de Soluções IA",
-    desc: "Implementação de sistemas de categorização de documentos e integração de modelos inteligentes para classificação.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 3,
-    title: "Desenvolvedor Full Stack Freelance",
-    desc: "Desenvolvimento de aplicações ponta a ponta, desde o conceito inicial até o deploy final.",
-    className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Desenvolvedor Mobile - React Native",
-    desc: "Criação de aplicativos híbridos para iOS e Android com foco em performance e usabilidade.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
-  },
-];
 
 export const socialMedia = [
   {
@@ -170,7 +140,7 @@ export const trajectory = [
   },
   {
     id: 2,
-    date: "2025 - Atualmente",
+    date: "2025 - 2029",
     title: "Bacharelado em Sistemas de Informação - UFG",
     description: "Consolidação da base em lógica de programação com C e aprofundamento em desenvolvimento web.",
     link: null,
