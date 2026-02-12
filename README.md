@@ -2,7 +2,7 @@
 
 Este é um portfólio de alto desempenho desenvolvido com as tecnologias mais recentes do ecossistema Web. O projeto apresenta uma interface dinâmica, interativa e totalmente responsiva, utilizando elementos 3D e animações avançadas.
 
-🔗 **Link para o Deploy:** [http://rafaelaugustodev.github.io/Portfolio/](http://rafaelaugustodev.github.io/Portfolio/)
+🔗 **Link para o Deploy:** [http://rafaelaugustodev.github.io/portfolio/](http://rafaelaugustodev.github.io/portfolio/)
 
 ---
 
