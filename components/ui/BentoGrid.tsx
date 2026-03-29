@@ -111,7 +111,7 @@ export const BentoGridItem = ({
           {id === 1 && (
             <div className="flex mt-10 justify-center">
               <a
-                href="https://drive.google.com/file/d/1J-7Cg5e17vm240a1BKjIVS90cn491uVY/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ut_YOs6vTULH1VFQJKsuPi7pyAXAZIz0/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
